@@ -1,0 +1,41 @@
+*
+{ border:0; padding:0; margin:0; box-sizing:border-box; }
+
+body
+{ font:28px/1.5em courier, monospace; font-weight:bold; }
+
+a
+{ text-decoration:none; color:black; padding:0.25em 0.5em; }
+
+.wrapper
+{ background:white; min-height:100%; }
+
+.column
+{ padding:1.5em 1.5em 0; }
+
+.post a
+{ padding:0; }
+
+p
+{ padding-bottom:1.5em; }
+
+p:last-child
+{ padding-bottom:0; }
+
+.year, .month, .day, .email, .name
+{ margin-left:-0.5em; }
+
+.email
+{ padding-bottom:1.5em; }
+
+.highlight
+{ color:white; background:black; font-weight:normal; }
+
+ul
+{ margin:-1.5em 0 1.5em 1em; }
+
+@media only screen and (max-width:650px)
+{
+  body
+  { font-size:18px; }
+}

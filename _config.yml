@@ -1,0 +1,16 @@
+title: We Would Be Daylight
+email: wewouldbedaylight@gmail.com
+description: ""
+baseurl: ""
+url: ""
+permalink: /:year/:month/:day
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+kramdown:
+    smart_quotes: ["apos", "apos", "quot", "quot"]
